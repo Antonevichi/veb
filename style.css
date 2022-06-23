@@ -1,0 +1,57 @@
+h1 {
+   color: rgb(0, 81, 255);
+}
+
+
+.conteiner{
+   width: 1200px;
+   margin: 0 auto ;
+}
+main{
+   display: flex;
+}
+.pic {
+   transition: all 1s;
+   transform: scale(0.9);
+   border-radius: 150px;
+}
+
+.pic:hover{
+   transform:scale(1.2);
+}
+
+.viol{
+   color: blueviolet;
+}
+
+.big{
+   color: rgb(226, 43, 150);
+   font-size: 25px;
+   text-transform: uppercase;
+}
+.button{
+   width: 200px;
+   height: 60px;
+   background-color: aquamarine;
+   color: chartreuse;
+   border-radius: 150px;
+}
+
+.site{
+   display: block;
+   text-decoration: none;
+   text-align: center;
+   line-height: 60px;
+   font-weight: bolder;
+   color: rgb(255, 0, 242) ;
+   border: 1px solid transparent ;
+}
+
+.site:hover{
+
+   border: 1px solid aquamarine;
+   background-color: rgb(66, 41, 7);
+   color: rgb(244, 241, 247);
+   transition: all 1s;
+  
+}
